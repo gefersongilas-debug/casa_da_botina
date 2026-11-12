@@ -1,0 +1,1106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PZRW6ZDV');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Casa da Botina — moda country completa para toda a família. Botas, botinas, jeans, chapéus, cintos, roupas e acessórios em Sapezal.">
+  <title>Casa da Botina | Moda Country Completa</title>
+  <style>
+
+:root{
+  --ink:#17110d;
+  --ink-2:#2a1a12;
+  --orange:#e85b12;
+  --orange-2:#ff7a1a;
+  --cream:#f7efe3;
+  --paper:#fffaf3;
+  --muted:#786a61;
+  --line:#e6d8c7;
+  --white:#fff;
+  --shadow:0 24px 70px rgba(37,19,8,.14);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button,a{transition:.25s ease}
+.announcement{
+  height:34px;background:#0e0c0b;color:#fff;display:flex;align-items:center;justify-content:center;
+  gap:48px;font-size:10px;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap;overflow:hidden
+}
+.announcement span{opacity:.9}
+.site-header{
+  position:sticky;top:0;z-index:50;height:86px;background:rgba(18,13,10,.94);backdrop-filter:blur(14px);
+  display:grid;grid-template-columns:270px 1fr auto;align-items:center;gap:28px;padding:0 5vw;border-bottom:1px solid rgba(255,255,255,.09)
+}
+.brand img{height:58px;width:auto;object-fit:contain}
+.desktop-nav{display:flex;justify-content:center;gap:28px}
+.desktop-nav a{color:#fff;font-size:13px;opacity:.85}
+.desktop-nav a:hover{color:var(--orange-2);opacity:1}
+.nav-cta{background:var(--orange);color:#fff;padding:13px 19px;border-radius:4px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.nav-cta:hover,.btn.primary:hover{transform:translateY(-2px);background:#ff6b17}
+.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:28px}
+
+/* V15: hero responsiva, com banner desktop e mobile dedicados. */
+.hero{position:relative;display:flex;align-items:center;min-height:clamp(690px,47vw,830px);background:#210f08;overflow:hidden;isolation:isolate}
+.hero-copy{
+  position:relative;z-index:2;width:min(100%,800px);max-width:800px;
+  padding:76px 35px 76px clamp(24px,5vw,96px);color:#fff;
+  display:flex;flex-direction:column;justify-content:center;
+  background:none!important;
+}
+
+.eyebrow{font-size:11px;letter-spacing:.23em;text-transform:uppercase;font-weight:800;color:#ffb17f}
+.eyebrow.dark{color:var(--orange)}
+.hero h1,.section h2,.banner-overlay h2,.cta-final h2,.service-card h2{
+  font-family:Georgia,"Times New Roman",serif;line-height:.96;margin:16px 0 24px;font-weight:600;letter-spacing:-.03em
+}
+.hero h1{font-size:clamp(52px,5.35vw,86px);max-width:690px}
+.hero h1 em{font-style:italic;color:var(--orange-2);font-weight:500}
+.hero-copy>p{font-size:18px;line-height:1.65;max-width:650px;color:#eaded4}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:49px;padding:0 22px;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;font-size:11px;font-weight:900}
+.btn.primary{background:var(--orange);color:#fff}
+.btn.ghost{border:1px solid rgba(255,255,255,.45);color:#fff}
+.btn.ghost:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+.btn.ghost.light{border-color:rgba(255,255,255,.7)}
+.btn.outline-dark{border:1px solid var(--ink);color:var(--ink);background:transparent}
+.btn.outline-dark:hover{background:var(--ink);color:#fff}
+.hero-media{position:absolute;inset:0;z-index:0;width:100%;height:100%;background:none;pointer-events:none}
+.hero-media picture{display:block;position:absolute;inset:0;width:100%;height:100%}
+.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center}
+.hero-media:after{content:none!important}
+.hero-stamp{display:none}
+
+/* V15: faixa continua, com os dois grupos identicos para loop sem saltos */
+.trust-strip{display:block;overflow:hidden;position:relative;background:#21140e;color:#fff;border-top:1px solid rgba(255,255,255,.08)}
+.trust-strip>.trust-track{display:flex;width:max-content;animation:trust-flow 26s linear infinite;will-change:transform}
+.trust-strip .trust-group{display:flex;flex:0 0 auto}
+.trust-strip .trust-item{min-width:285px;width:clamp(285px,25vw,430px);padding:23px 28px;display:flex;justify-content:center;align-items:center;gap:14px;border-right:1px solid rgba(255,255,255,.09);white-space:nowrap}
+.trust-strip strong{color:var(--orange);font-family:Georgia,serif;font-size:24px;font-weight:500}
+.trust-strip span{font-size:12px;letter-spacing:.04em}
+@keyframes trust-flow{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+.section{padding:90px 5vw}
+.section-head{max-width:830px;margin-bottom:48px}
+.section-head.center{text-align:center;margin-left:auto;margin-right:auto}
+.section-head.left{max-width:720px}
+.section-head h2{font-size:clamp(40px,4vw,64px);margin-top:12px;margin-bottom:14px}
+.section-head p{color:var(--muted);font-size:16px;line-height:1.65}
+
+.categories{background:#fffaf3}
+.category-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;max-width:1200px;margin:0 auto}
+.category-card{background:#fff;border:1px solid var(--line);min-height:160px;border-radius:100px 100px 18px 18px;padding:28px 18px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.category-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#d6b99d}
+.category-card .icon{font-size:34px}
+.category-card strong{font-family:Georgia,serif;font-size:19px}
+.category-card small{font-size:11px;color:var(--muted)}
+
+.products{background:#fbf5ec;overflow:hidden}
+.infinite-carousel{width:100%;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:none;-ms-overflow-style:none;cursor:grab;-webkit-overflow-scrolling:touch;touch-action:auto;mask-image:linear-gradient(to right,transparent 0,#000 3%,#000 97%,transparent 100%)}
+.infinite-carousel::-webkit-scrollbar{display:none}
+.infinite-carousel.is-dragging{cursor:grabbing;scroll-behavior:auto}
+/* V17: cada incremento da rolagem automatica é imediato e uniforme. */
+.infinite-carousel{scroll-behavior:auto!important}
+.carousel-track{display:flex;gap:18px;width:max-content;padding:8px 0 30px}
+.carousel-track img{-webkit-user-drag:none;user-select:none}
+.infinite-carousel:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.product-card{width:260px;flex:0 0 260px;background:#fff;border:1px solid #eadfd2;border-radius:8px;overflow:hidden;box-shadow:0 8px 30px rgba(38,22,12,.06)}
+.product-image-wrap{height:310px;position:relative;background:#ece5dc;overflow:hidden}
+.product-image-wrap img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;left:12px;top:12px;background:var(--orange);color:#fff;padding:6px 8px;font-size:9px;font-weight:800;letter-spacing:.07em}
+.heart{position:absolute;right:11px;top:9px;width:34px;height:34px;border-radius:50%;border:1px solid rgba(20,12,8,.18);background:rgba(255,255,255,.84);font-size:20px;cursor:pointer}
+.heart.active{background:var(--orange);color:#fff;border-color:var(--orange)}
+.product-copy{padding:18px}
+.product-copy h3{font-family:Georgia,serif;font-size:18px;margin:0 0 8px}
+.product-copy p{color:var(--muted);font-size:12px;line-height:1.5;margin:0 0 14px}
+.text-link{font-size:11px;text-transform:uppercase;font-weight:800;letter-spacing:.05em;color:var(--orange)}
+.center-actions{text-align:center;margin-top:18px}
+
+.wide-banner{position:relative;height:520px;overflow:hidden;background:#21130c}
+.wide-banner img{width:100%;height:100%;object-fit:cover}
+.wide-banner:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,10,7,.9),rgba(18,10,7,.42) 46%,rgba(18,10,7,.08))}
+.banner-overlay{position:absolute;z-index:2;left:7vw;top:50%;transform:translateY(-50%);max-width:560px;color:#fff}
+.banner-overlay h2{font-size:clamp(44px,5vw,72px)}
+.banner-overlay p{font-size:16px;line-height:1.6;color:#ead8ca;margin-bottom:24px}
+
+.split{display:grid;grid-template-columns:1fr 1fr;padding:0;background:#fff}
+.split-media{min-height:650px}
+.split-media img{width:100%;height:100%;object-fit:cover}
+.split-copy{padding:90px 7vw;display:flex;flex-direction:column;justify-content:center}
+.split-copy h2{font-size:clamp(42px,4.4vw,66px)}
+.split-copy>p{color:var(--muted);font-size:16px;line-height:1.7}
+.feature-list{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 30px}
+.feature-list>div{border-top:1px solid var(--line);padding-top:16px}
+.feature-list span{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#fff1e7;color:var(--orange);font-weight:900}
+.feature-list p{font-size:12px;line-height:1.4}
+
+.editorial{background:#f2e6d9}
+.editorial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+/* Cards de categoria respeitando a imagem inteira, sem crop */
+.editorial-card{min-height:0;aspect-ratio:57/56;height:auto;border-radius:8px;position:relative;overflow:hidden;background:#2d211a;box-shadow:var(--shadow);isolation:isolate}
+.editorial-card::before{display:none}
+.editorial-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain!important;object-position:center center!important;z-index:1;background:#2d211a}
+.editorial-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,8,7,.38) 0%,rgba(9,8,7,0) 26%,rgba(9,8,7,0) 72%,rgba(9,8,7,.10) 100%);z-index:2;pointer-events:none}
+.editorial-card span{position:absolute;z-index:3;left:24px;top:22px;bottom:auto;color:#fff;font-family:Georgia,serif;font-size:32px;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.editorial-card.male{--category-image:url('assets/categoria-masculino-v6.jpg')}
+.editorial-card.female{--category-image:url('assets/categoria-feminino-v6.jpg')}
+.editorial-card.kids{--category-image:url('assets/categoria-infantil-v6.jpg')}
+
+.service{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0}
+.service-card{padding:80px 7vw;min-height:560px}
+.service-card.orange{background:linear-gradient(135deg,#a9320b,#ef6415);color:#fff}
+.service-card.light{background:#fffaf3}
+.service-card h2{font-size:clamp(40px,4vw,60px)}
+.service-card p{line-height:1.7;font-size:15px}
+.value-row{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px}
+.value-row span{border:1px solid rgba(255,255,255,.45);padding:10px 14px;border-radius:30px;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.service-card ul{padding:0;list-style:none;margin:24px 0}
+.service-card li{padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.service-card li:before{content:"✦";color:var(--orange);margin-right:10px}
+
+.testimonials{background:#1a100c;color:#fff}
+.testimonials .section-head p,.testimonials .eyebrow.dark{color:#ffad78}
+.testimonials h2{color:#fff}
+.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+blockquote{margin:0;padding:34px;background:#251711;border:1px solid rgba(255,255,255,.1);font-family:Georgia,serif;font-size:24px;line-height:1.3}
+blockquote cite{display:block;font-family:ui-sans-serif,system-ui;font-size:11px;margin-top:22px;color:#d9c5b7;font-style:normal;text-transform:uppercase;letter-spacing:.05em}
+
+.cta-final{background:
+  linear-gradient(rgba(18,10,7,.82),rgba(18,10,7,.82)),
+  url('assets/fundo-cta.webp') center/cover no-repeat;color:#fff;padding:100px 5vw}
+.cta-inner{max-width:850px;margin:0 auto;text-align:center}
+.cta-final h2{font-size:clamp(48px,5.6vw,82px)}
+.cta-final p{font-size:17px;line-height:1.7;color:#ead9ce;max-width:760px;margin:0 auto}
+.cta-final .hero-actions{justify-content:center}
+
+footer{background:#0e0c0b;color:#fff;display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:40px;padding:60px 5vw}
+.footer-brand img{width:260px;margin-bottom:18px}
+footer h4{font-family:Georgia,serif;font-size:18px;margin:0 0 14px}
+footer a,footer span,footer p{display:block;color:#bfb3aa;font-size:12px;line-height:1.7;margin:5px 0}
+.copyright{background:#090807;color:#756d67;font-size:10px;text-align:center;padding:14px}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+
+@media (max-width:1020px){
+  .site-header{grid-template-columns:220px 1fr auto}
+  .desktop-nav{display:none}
+  .menu-toggle{display:block}
+  .nav-cta{display:none}
+  .site-header.open .desktop-nav{
+    display:flex;position:absolute;left:0;right:0;top:86px;background:#17100c;flex-direction:column;padding:22px 5vw
+  }
+  .hero{min-height:710px}
+  .hero-media{min-height:0}
+  .hero-media img{object-position:42% center}
+  .hero-copy{max-width:610px;padding:66px 28px 66px 5vw}
+  .hero h1{font-size:clamp(51px,7.5vw,77px)}
+  .trust-strip{grid-template-columns:repeat(2,1fr)}
+  .category-grid{grid-template-columns:repeat(3,1fr)}
+  .split,.service{grid-template-columns:1fr}
+  .split-media{min-height:520px}
+  .editorial-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .editorial-card{height:auto;aspect-ratio:57/56}
+  footer{grid-template-columns:1fr 1fr}
+}
+@media (max-width:700px){
+  .announcement{justify-content:flex-start;padding:0 18px;gap:32px}
+  .site-header{height:74px;padding:0 18px;grid-template-columns:1fr auto}
+  .brand img{height:48px}
+  .site-header.open .desktop-nav{top:74px}
+  /* V20: hero mobile 150px maior que V19 (755px -> 905px); desktop inalterado */
+  .hero{height:905px;min-height:905px;max-height:905px;align-items:flex-start}
+  .hero-media img{object-position:center bottom}
+  .hero-copy{padding:26px 22px 30px;max-width:100%;justify-content:flex-start}
+  .hero h1{font-size:clamp(43px,10.6vw,59px);max-width:510px}
+  .hero-copy>p{font-size:16px;max-width:500px}
+  .hero-media{min-height:0}
+  .trust-strip{grid-template-columns:1fr}
+  .section{padding:68px 20px}
+  .category-grid{grid-template-columns:repeat(2,1fr)}
+  .category-card{min-height:145px}
+  .feature-list{grid-template-columns:1fr}
+  .split-copy,.service-card{padding:66px 22px}
+  .editorial-grid{grid-template-columns:1fr}
+  .editorial-card{height:auto;aspect-ratio:57/56}
+  .testimonial-grid{grid-template-columns:1fr}
+  .wide-banner{height:600px}
+  .banner-overlay{left:24px;right:24px}
+  footer{grid-template-columns:1fr;padding:50px 22px}
+}
+
+
+/* Ajustes técnicos e de responsividade — Casa da Botina */
+.product-image-wrap img.catalog-product{object-fit:contain;object-position:center;padding:20px 22px;background:#ece5dc}
+a:focus-visible,button:focus-visible{outline:3px solid #ffad4d;outline-offset:3px}
+@media(max-width:700px){
+  .product-image-wrap img.catalog-product{padding:18px}
+ .hero-actions .btn{max-width:100%;text-align:center}
+ .trust-strip .trust-item{min-width:250px;width:250px;padding:20px 18px}
+ .trust-strip>.trust-track{animation-duration:24s}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+@media (min-width:1021px) and (max-width:1160px) {
+  .site-header { grid-template-columns:220px 1fr auto; }
+  .desktop-nav { display:none; }
+  .menu-toggle { display:block; }
+  .nav-cta { display:none; }
+  .site-header.open .desktop-nav {
+    display:flex; position:absolute; left:0; right:0; top:86px;
+    background:#17100c; flex-direction:column; padding:22px 5vw;
+  }
+  .site-header.open .desktop-nav a { font-size:16px; }
+}
+@media (min-width:1021px) and (max-width:1199px) {
+  .category-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+/* V7 — Legibilidade: textos de leitura, botões e informações secundárias.
+   Imagens e estrutura da V6 foram preservadas. */
+body { font-size:16px; line-height:1.6; }
+.announcement { height:40px; font-size:12px; letter-spacing:.09em; }
+.desktop-nav a { font-size:15px; }
+.nav-cta { font-size:14px; line-height:1.25; padding:14px 19px; }
+.eyebrow { font-size:13px; letter-spacing:.17em; line-height:1.4; }
+.hero-copy>p { font-size:19px; line-height:1.7; }
+@media (min-width:1021px){.hero-copy>p{font-size:21px;line-height:1.65;max-width:660px}}
+.hero-stamp { font-size:13px; line-height:1.4; }
+.btn { font-size:14px; line-height:1.35; min-height:52px; padding:13px 22px; text-align:center; }
+.trust-strip span { font-size:15px; line-height:1.5; letter-spacing:0; }
+.section-head p { font-size:18px; line-height:1.7; }
+.category-card { min-height:175px; padding:25px 13px 20px; }
+.category-card strong { font-size:21px; line-height:1.15; }
+.category-card small { font-size:14px; line-height:1.45; }
+.product-card { width:284px; flex-basis:284px; }
+.product-copy { padding:20px; }
+.product-copy h3 { font-size:21px; line-height:1.2; }
+.product-copy p { font-size:15px; line-height:1.6; }
+.text-link { font-size:13.5px; line-height:1.5; display:inline-flex; align-items:center; min-height:30px; }
+.badge { font-size:11px; line-height:1.2; padding:7px 10px; }
+.banner-overlay p { font-size:18px; line-height:1.7; }
+.split-copy>p { font-size:18px; line-height:1.75; }
+.feature-list p { font-size:15px; line-height:1.55; }
+.service-card p { font-size:17px; line-height:1.75; }
+.service-card li { font-size:16px; line-height:1.6; }
+.value-row span { font-size:13px; line-height:1.4; }
+blockquote cite { font-size:13px; line-height:1.5; }
+.cta-final p { font-size:18px; line-height:1.7; }
+footer h4 { font-size:20px; }
+footer a,footer span,footer p { font-size:15px; line-height:1.7; }
+.copyright { font-size:13px; color:#b5a79c; }
+@media (max-width:1020px) {
+  .site-header.open .desktop-nav a { font-size:16px; line-height:1.5; }
+}
+@media (max-width:700px) {
+  .announcement { height:38px; font-size:11.5px; }
+  .hero-copy>p { font-size:17px; line-height:1.7; }
+  .hero-stamp { font-size:12px; }
+  .btn { font-size:14px; min-height:52px; }
+  .section-head p { font-size:17px; }
+  .category-card { min-height:172px; padding:22px 10px 18px; }
+  .category-card small { font-size:14px; }
+  .product-card { width:280px; flex-basis:280px; }
+  .banner-overlay p { font-size:17px; }
+  .split-copy>p { font-size:17px; }
+  .service-card p { font-size:17px; }
+  .cta-final p { font-size:17px; }
+  footer { gap:26px; }
+}
+
+
+/* V9 — categorias: ícones SVG fornecidos pelo cliente e cartões em paleta country marrom */
+.categories{background:linear-gradient(180deg,#fffaf3 0%,#f7eee2 100%)}
+.category-grid{max-width:1240px;gap:16px;align-items:stretch}
+.category-card{
+  position:relative; isolation:isolate; overflow:hidden; min-width:0;
+  min-height:222px; border:1px solid #e8d7c5; border-radius:20px;
+  padding:25px 12px 22px; gap:8px;
+  background:linear-gradient(160deg,#fffefa 0%,#fff9f1 100%);
+  color:#2b1b14; box-shadow:0 7px 24px rgba(63,36,21,.055);
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease,background .25s ease;
+}
+.category-card::before{content:"";position:absolute;top:0;left:18%;right:18%;height:3px;background:#785039;opacity:.35;border-radius:0 0 5px 5px;transition:opacity .25s ease,left .25s ease,right .25s ease}
+.category-card:hover,.category-card:focus-visible{transform:translateY(-5px);border-color:#b89474;box-shadow:0 16px 32px rgba(63,36,21,.13);background:#fffdf9}
+.category-card:hover::before,.category-card:focus-visible::before{opacity:1;left:0;right:0}
+.category-card:focus-visible{outline:3px solid #995e3b;outline-offset:3px}
+.category-card .icon{
+  width:76px;height:76px;flex-shrink:0;display:grid;place-items:center;
+  background:#f4e9dc;border:1px solid #e8d4bd;border-radius:50%;
+  margin-bottom:9px;transition:transform .25s ease,background .25s ease;
+}
+.category-card .icon img{width:44px;height:44px;object-fit:contain;display:block}
+.category-card:hover .icon{transform:translateY(-2px) scale(1.035);background:#eddcc8}
+.category-card strong{font:600 22px/1.2 Georgia,"Times New Roman",serif;letter-spacing:-.025em;color:#322018}
+.category-card small{font-size:14px;line-height:1.45;font-weight:400;color:#78685b;max-width:165px}
+@media (max-width:1199px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:700px){
+ .category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .category-card{min-height:197px;padding:20px 9px 17px;border-radius:16px;gap:6px}
+ .category-card .icon{width:66px;height:66px;margin-bottom:6px}
+ .category-card .icon img{width:39px;height:39px}
+ .category-card strong{font-size:20px}
+ .category-card small{font-size:13.5px;line-height:1.35}
+}
+@media (prefers-reduced-motion:reduce){.category-card,.category-card .icon{transition:none}}
+
+
+/* V10 — acabamento final das categorias e fotos de botinas confirmadas no catálogo */
+.category-card .icon img{filter:none}
+.category-card .icon{background:linear-gradient(160deg,#f2e6d7,#ead8c3);border-color:#dbc6af}
+.category-card:hover .icon,.category-card:focus-visible .icon{background:linear-gradient(160deg,#ead9c6,#e5cbae)}
+.category-card:active{transform:translateY(-2px)}
+.product-image-wrap img.catalog-product{object-fit:contain!important;object-position:center!important;padding:20px 17px!important;background:#ece5dc}
+@media (max-width:700px){.product-image-wrap img.catalog-product{padding:18px 15px!important}}
+
+
+/* V11 — Categorias informativas, sem clique nem aparência de botão */
+.category-card,.category-card:hover,.category-card:active{
+  cursor:default;transform:none!important;
+  box-shadow:0 7px 24px rgba(63,36,21,.055)!important;
+  border-color:#e8d7c5!important;
+  background:linear-gradient(160deg,#fffefa 0%,#fff9f1 100%)!important;
+}
+.category-card:hover::before{opacity:.35;left:18%;right:18%}
+.category-card:hover .icon{transform:none;background:linear-gradient(160deg,#f2e6d7,#ead8c3)}
+/* O carrossel permanece automático mesmo com o ponteiro por cima;
+   só pausa brevemente durante e logo após o arraste manual. */
+
+/* V21 — Espaçamento mais compacto entre título, texto e CTAs da hero, somente no mobile. */
+@media (max-width:700px){
+  .hero h1{margin-top:10px;margin-bottom:11px}
+  .hero-copy>p{margin-top:0;margin-bottom:0;line-height:1.6}
+  .hero .hero-actions{margin-top:18px}
+}
+</style>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZRW6ZDV" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <div class="announcement" id="topo">
+    <span>✦ MODA COUNTRY PARA TODA A FAMÍLIA</span>
+    <span>ATENDIMENTO PRÓXIMO E ESPECIALIZADO</span>
+    <span>MARCAS RECONHECIDAS</span>
+  </div>
+
+  <header class="site-header">
+    <a href="#topo" class="brand" aria-label="Casa da Botina">
+      <img src="assets/logo-casa-da-botina.webp" alt="Casa da Botina">
+    </a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#categorias">Categorias</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" class="nav-cta" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">Falar com a loja</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">DO CHAPÉU À BOTINA</span>
+        <h1>Tudo para vestir o seu <em>estilo por completo.</em></h1>
+        <p>Botas, botinas, jeans, chapéus, cintos, roupas e acessórios de marcas reconhecidas, reunidos em um só lugar para você encontrar cada peça e montar o look do seu jeito.</p>
+        <div class="hero-actions">
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" class="btn primary" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">Quero conhecer as novidades</a>
+          <a class="btn ghost" href="#categorias">Ver categorias</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <picture>
+          <source media="(max-width:700px)" srcset="assets/banner-mobile-v15.webp" type="image/webp">
+          <img fetchpriority="high" decoding="async" src="assets/hero-country-v13.webp" alt="Casal com roupas country ao pôr do sol">
+        </picture>
+        <div class="hero-stamp">Masculino • Feminino • Infantil</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Diferenciais">
+      <div class="trust-track">
+        <div class="trust-group">
+        <div class="trust-item"><strong>01</strong><span>Moda country completa</span></div>
+        <div class="trust-item"><strong>02</strong><span>Marcas selecionadas</span></div>
+        <div class="trust-item"><strong>03</strong><span>Atendimento próximo</span></div>
+        <div class="trust-item"><strong>04</strong><span>Do look básico ao completo</span></div>
+        </div>
+        <div class="trust-group" aria-hidden="true">
+        <div class="trust-item"><strong>01</strong><span>Moda country completa</span></div>
+        <div class="trust-item"><strong>02</strong><span>Marcas selecionadas</span></div>
+        <div class="trust-item"><strong>03</strong><span>Atendimento próximo</span></div>
+        <div class="trust-item"><strong>04</strong><span>Do look básico ao completo</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories" id="categorias">
+      <div class="section-head center reveal">
+        <span class="eyebrow dark">ENCONTRE DO SEU JEITO</span>
+        <h2>Escolha por categoria</h2>
+        <p>Uma seleção pensada para quem vive o country em diferentes momentos.</p>
+      </div>
+      <div class="category-grid">
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-calcados-v11.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Calçados</strong><small>Botas e botinas</small>
+        </div>
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-roupas.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Roupas</strong><small>Masculino e feminino</small>
+        </div>
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-chapeus.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Chapéus</strong><small>Clássicos e marcantes</small>
+        </div>
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-cintos.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Cintos</strong><small>Detalhes que completam</small>
+        </div>
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-acessorios-v11.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Acessórios</strong><small>Bolsas e complementos</small>
+        </div>
+        <div class="category-card reveal">
+          <span class="icon" aria-hidden="true"><img src="assets/icone-novidades.svg" width="45" height="45" alt="" loading="lazy" decoding="async"></span><strong>Novidades</strong><small>Seleção da semana</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="destaques">
+      <div class="section-head center reveal">
+        <span class="eyebrow dark">DESTAQUES DA LOJA</span>
+        <h2>Peças selecionadas para compor o seu estilo.</h2>
+        <p>Arraste para navegar ou deixe o carrossel seguir automaticamente.</p>
+      </div>
+      <div class="infinite-carousel" aria-label="Carrossel de produtos; arraste ou use as setas do teclado" role="region" aria-roledescription="carrossel" tabindex="0">
+        <div class="carousel-track">
+          
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-01.webp" alt="Sapato Social Felicatto" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Social Felicatto">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Social Felicatto</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-02.webp" alt="Botina Nobuck" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Botina Nobuck">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Botina Nobuck</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-coturno-v10.webp" alt="Maverick Coturno Durango" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Coturno Durango">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Coturno Durango</h3>
+          <p>Coturno impermeável • Durango DDB0238</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-04.webp" alt="Sapato Social Clássico" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Social Clássico">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Social Clássico</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-05.webp" alt="Sapato Masculino" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Masculino">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Masculino</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-rebel-bico-quadrado-v10.webp" alt="Rebel Botina Bico Quadrado" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Rebel Botina Bico Quadrado">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Rebel Botina Bico Quadrado</h3>
+          <p>Couro legítimo • Durango DDB0460</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-07.webp" alt="Bota Cano Curto" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Bota Cano Curto">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Bota Cano Curto</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-bico-redondo-v10.webp" alt="Maverick Bico Redondo" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Bico Redondo">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Bico Redondo</h3>
+          <p>Conforto e estilo • Durango DDB492HZ</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-pro-v10.webp" alt="Maverick Pro Durango" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Pro Durango">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Pro Durango</h3>
+          <p>Resistência e conforto • Durango DD534HZ</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-10.webp" alt="Bota Outdoor" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Bota Outdoor">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Bota Outdoor</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-11.webp" alt="Botina Casual" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Botina Casual">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Botina Casual</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-01.webp" alt="Sapato Social Felicatto" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Social Felicatto">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Social Felicatto</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-02.webp" alt="Botina Nobuck" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Botina Nobuck">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Botina Nobuck</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-coturno-v10.webp" alt="Maverick Coturno Durango" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Coturno Durango">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Coturno Durango</h3>
+          <p>Coturno impermeável • Durango DDB0238</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-04.webp" alt="Sapato Social Clássico" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Social Clássico">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Social Clássico</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-05.webp" alt="Sapato Masculino" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Sapato Masculino">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Sapato Masculino</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-rebel-bico-quadrado-v10.webp" alt="Rebel Botina Bico Quadrado" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Rebel Botina Bico Quadrado">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Rebel Botina Bico Quadrado</h3>
+          <p>Couro legítimo • Durango DDB0460</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-07.webp" alt="Bota Cano Curto" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Bota Cano Curto">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Bota Cano Curto</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-bico-redondo-v10.webp" alt="Maverick Bico Redondo" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Bico Redondo">♡</button>
+          <span class="badge">NOVO</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Bico Redondo</h3>
+          <p>Conforto e estilo • Durango DDB492HZ</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/bota-maverick-pro-v10.webp" alt="Maverick Pro Durango" loading="lazy" decoding="async" class="catalog-product">
+          <button class="heart" aria-label="Favoritar Maverick Pro Durango">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Maverick Pro Durango</h3>
+          <p>Resistência e conforto • Durango DD534HZ</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-10.webp" alt="Bota Outdoor" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Bota Outdoor">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Bota Outdoor</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="assets/produto-original-11.webp" alt="Botina Casual" loading="lazy" decoding="async">
+          <button class="heart" aria-label="Favoritar Botina Casual">♡</button>
+          <span class="badge">DESTAQUE</span>
+        </div>
+        <div class="product-copy">
+          <h3>Botina Casual</h3>
+          <p>Qualidade, conforto e estilo para completar o seu look.</p>
+          <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="text-link">Quero saber mais →</a>
+        </div>
+      </article>
+    
+        </div>
+      </div>
+      <div class="center-actions">
+        <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" class="btn outline-dark" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">Quero ver mais opções</a>
+      </div>
+    </section>
+
+    <section class="wide-banner reveal">
+      <img src="assets/fundo-cta.webp" alt="Seleção de botas e botinas da Casa da Botina">
+      <div class="banner-overlay">
+        <span class="eyebrow">MARCAS QUE VOCÊ PROCURA</span>
+        <h2>Peças que valem a escolha.</h2>
+        <p>Qualidade, conforto, acabamento e durabilidade para quem escolhe cada detalhe com atenção.</p>
+        <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn primary">Conheça nossa seleção</a>
+      </div>
+    </section>
+
+    <section class="section split" id="experiencia">
+      <div class="split-media reveal">
+        <img src="assets/bota-couro-estilo.webp" alt="Cowboy vestindo bota de couro">
+      </div>
+      <div class="split-copy reveal">
+        <span class="eyebrow dark">QUALIDADE QUE FAZ DIFERENÇA</span>
+        <h2>Uma boa bota tem que fazer sentido muito depois da compra.</h2>
+        <p>Quem trabalha no campo ou passa horas de botina sabe a diferença que conforto, acabamento e resistência fazem. E quem investe em uma boa peça quer continuar satisfeito com a escolha depois de muito uso.</p>
+        <div class="feature-list">
+          <div><span>✓</span><p><strong>Conforto</strong><br>para o dia a dia</p></div>
+          <div><span>✓</span><p><strong>Resistência</strong><br>para acompanhar a rotina</p></div>
+          <div><span>✓</span><p><strong>Estilo</strong><br>para qualquer ocasião</p></div>
+        </div>
+        <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn primary">Encontrar minha próxima bota</a>
+      </div>
+    </section>
+
+    <section class="section editorial">
+      <div class="section-head left reveal">
+        <span class="eyebrow dark">PARA TODA A FAMÍLIA</span>
+        <h2>Vista o country do seu jeito, da cabeça aos pés.</h2>
+        <p>Moda masculina, feminina e infantil para o campo, o dia a dia, eventos e todos os momentos em que o estilo faz parte de quem você é.</p>
+      </div>
+      <div class="editorial-grid">
+        <article class="editorial-card male"><img src="assets/categoria-masculino-v6.jpg" alt="Look masculino country: peão com botas marrons no rancho" loading="lazy" decoding="async" draggable="false"><span>Masculino</span></article>
+        <article class="editorial-card female"><img src="assets/categoria-feminino-v6.jpg" alt="Look feminino country: mulher com botas marrons no rancho" loading="lazy" decoding="async" draggable="false"><span>Feminino</span></article>
+        <article class="editorial-card kids"><img src="assets/categoria-infantil-v6.jpg" alt="Look infantil country: menino com botinas no rancho" loading="lazy" decoding="async" draggable="false"><span>Infantil</span></article>
+      </div>
+    </section>
+
+    <section class="section service" id="historia">
+      <div class="service-card orange reveal">
+        <span class="eyebrow">DESDE 2021</span>
+        <h2>Uma história feita de trabalho, confiança e proximidade.</h2>
+        <p>A Casa da Botina nasceu em Sapezal com o propósito de oferecer uma experiência diferente para quem procura moda country. Crescemos junto com nossos clientes, ampliando variedade, marcas e relacionamento sem perder a essência.</p>
+        <div class="value-row"><span>Autenticidade</span><span>Qualidade</span><span>Experiência</span></div>
+      </div>
+      <div class="service-card light reveal">
+        <span class="eyebrow dark">ATENDIMENTO QUE AJUDA DE VERDADE</span>
+        <h2>Você não precisa chegar sabendo exatamente o que levar.</h2>
+        <p>Nossa equipe ajuda você a combinar peças, experimentar possibilidades e encontrar opções que façam sentido para seu estilo, tamanho, ocasião e preferência.</p>
+        <ul>
+          <li>Ajuda para montar o look completo</li>
+          <li>Variedade de peças e marcas</li>
+          <li>Atendimento presencial e pelo WhatsApp</li>
+          <li>Escolhas pensadas para cada cliente</li>
+        </ul>
+        <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn outline-dark">Falar com a nossa equipe</a>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="section-head center reveal">
+        <span class="eyebrow dark">EXPERIÊNCIA CASA DA BOTINA</span>
+        <h2>Mais do que escolher uma peça.</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="reveal">“Um lugar para encontrar o look inteiro com ajuda de quem entende do estilo.”<cite>— Atendimento próximo</cite></blockquote>
+        <blockquote class="reveal">“Qualidade e variedade para quem procura peças que realmente combinem entre si.”<cite>— Seleção completa</cite></blockquote>
+        <blockquote class="reveal">“Do trabalho ao evento, opções para diferentes momentos e perfis.”<cite>— Moda country para toda a família</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="cta-final" id="contato">
+      <div class="cta-inner reveal">
+        <span class="eyebrow">CASA DA BOTINA</span>
+        <h2>Seu próximo look country pode estar inteiro aqui.</h2>
+        <p>Encontre botas, botinas, jeans, chapéus, cintos, roupas e acessórios para toda a família, com marcas selecionadas e atendimento próximo.</p>
+        <div class="hero-actions">
+          <a data-whatsapp="true" class="btn primary" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+          <a class="btn ghost light" href="#topo">Voltar ao início</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/logo-casa-da-botina.webp" alt="Casa da Botina">
+      <p>Do chapéu à botina, tudo para vestir o seu estilo por completo.</p>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <a href="#categorias">Categorias</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#historia">Nossa história</a>
+    </div>
+    <div>
+      <h4>Atendimento</h4>
+      <a data-whatsapp="true" rel="noopener noreferrer" target="_blank" href="https://wa.me/5565999852362?text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20no%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">Fale pelo WhatsApp</a>
+      <span>Sapezal — MT</span>
+      <span>Moda masculina, feminina e infantil</span>
+    </div>
+    <div>
+      <h4>Casa da Botina</h4>
+      <span>Autenticidade</span>
+      <span>Qualidade</span>
+      <span>Experiência</span>
+    </div>
+  </footer>
+  <div class="copyright">© 2026 Casa da Botina. Todos os direitos reservados.</div>
+
+  <script>
+
+const header = document.querySelector('.site-header');
+const menu = document.querySelector('.menu-toggle');
+
+menu?.addEventListener('click', () => {
+  const open = header.classList.toggle('open');
+  menu.setAttribute('aria-expanded', String(open));
+});
+
+document.querySelectorAll('.desktop-nav a').forEach(a => {
+  a.addEventListener('click', () => header.classList.remove('open'));
+});
+
+// Voltar ao topo: antes o alvo #topo era o header sticky, que permanece
+// visível durante a rolagem e podia impedir a navegação por âncora.
+// O alvo agora está na faixa superior (fora do header sticky).
+// O scroll explícito garante o funcionamento dos dois links, inclusive
+// em cliques repetidos quando a URL já possui #topo.
+document.querySelectorAll('a[href="#topo"]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, left: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    header?.classList.remove('open');
+    menu?.setAttribute('aria-expanded', 'false');
+  });
+});
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {threshold: 0.12});
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+document.addEventListener('click', (event) => {
+  const btn = event.target.closest('.heart');
+  if (!btn) return;
+  btn.classList.toggle('active');
+  btn.textContent = btn.classList.contains('active') ? '♥' : '♡';
+});
+
+/* V17: carrossel circular com autoplay visivel e constante (120px/s); arraste com mouse e swipe no celular. */
+(function setupProductCarousel(){
+  const viewport = document.querySelector('.infinite-carousel');
+  const track = viewport?.querySelector('.carousel-track');
+  if (!viewport || !track) return;
+
+  const initial = Array.from(track.querySelectorAll(':scope > .product-card'));
+  if (!initial.length) return;
+  // O HTML da V1 já duplicava a lista para a animação. Mantém só o conjunto original.
+  const repeated = initial.length % 2 === 0 &&
+    initial.slice(0, initial.length / 2).every((card, i) =>
+      card.querySelector('h3')?.textContent === initial[i + initial.length / 2].querySelector('h3')?.textContent);
+  if (repeated) initial.slice(initial.length / 2).forEach(card => card.remove());
+
+  const originals = Array.from(track.children);
+  const groupLength = originals.length;
+  function makeClone(card){
+    const clone = card.cloneNode(true);
+    clone.setAttribute('aria-hidden','true');
+    clone.querySelectorAll('a,button').forEach(el => el.setAttribute('tabindex','-1'));
+    return clone;
+  }
+  const leading = document.createDocumentFragment();
+  const trailing = document.createDocumentFragment();
+  originals.forEach(card => { leading.appendChild(makeClone(card)); trailing.appendChild(makeClone(card)); });
+  track.prepend(leading);
+  track.append(trailing);
+
+  let groupWidth = 0;
+  let dragging = false;
+  let moved = false;
+  let justDraggedAt = -Infinity;
+  let startX = 0;
+  let startScroll = 0;
+  let pausedUntil = 0;
+  let lastFrame = 0;
+  let adjusting = false;
+  /* Movimento continuo por solicitacao: nao bloquear o autoplay por preferencia de movimento do SO. */
+  function measure(){
+    const first = track.children[groupLength];
+    const following = track.children[groupLength * 2];
+    if (!first || !following) return;
+    const priorWidth = groupWidth;
+    groupWidth = following.offsetLeft - first.offsetLeft;
+    if (!(groupWidth > 0)) return;
+    if (!priorWidth) viewport.scrollLeft = groupWidth;
+    else viewport.scrollLeft += groupWidth - priorWidth;
+  }
+  function wrap(){
+    if (!groupWidth || adjusting) return;
+    let next = viewport.scrollLeft;
+    if (next >= groupWidth * 2) next -= groupWidth;
+    else if (next < groupWidth) next += groupWidth;
+    if (Math.abs(next - viewport.scrollLeft) > 1){
+      adjusting = true;
+      const shift = next - viewport.scrollLeft;
+      viewport.scrollLeft = next;
+      if (dragging) startScroll += shift;
+      adjusting = false;
+    }
+  }
+  measure();
+  viewport.addEventListener('scroll', () => { wrap(); }, {passive:true});
+  window.addEventListener('resize', measure, {passive:true});
+  viewport.addEventListener('pointerdown', event => {
+    pausedUntil = performance.now() + 250;
+    if (event.pointerType !== 'mouse' || event.button !== 0 || event.target.closest('button')) return;
+    dragging = true; moved = false;
+    startX = event.clientX;
+    startScroll = viewport.scrollLeft;
+    viewport.classList.add('is-dragging');
+  });
+  viewport.addEventListener('dragstart', event => event.preventDefault());
+  window.addEventListener('pointermove', event => {
+    if (!dragging) return;
+    const dx = event.clientX - startX;
+    if (Math.abs(dx) > 6) moved = true;
+    viewport.scrollLeft = startScroll - dx;
+    wrap();
+  });
+  function finishDrag(){
+    if (!dragging) return;
+    if (moved) justDraggedAt = performance.now();
+    dragging = false;
+    viewport.classList.remove('is-dragging');
+    pausedUntil = performance.now() + 350;
+  }
+  window.addEventListener('pointerup', finishDrag);
+  window.addEventListener('pointercancel', finishDrag);
+  viewport.addEventListener('click', event => {
+    if (performance.now() - justDraggedAt < 280){
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }
+  }, true);
+  viewport.addEventListener('touchstart', () => { pausedUntil = performance.now() + 350; }, {passive:true});
+  viewport.addEventListener('touchmove', () => { pausedUntil = performance.now() + 350; }, {passive:true});
+  viewport.addEventListener('wheel', () => { pausedUntil = performance.now() + 500; }, {passive:true});
+  viewport.addEventListener('keydown', event => {
+    if (event.target !== viewport || (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight')) return;
+    event.preventDefault();
+    pausedUntil = performance.now() + 250;
+    viewport.scrollLeft += (event.key === 'ArrowLeft' ? -280 : 280);
+    wrap();
+  });
+  function animate(now){
+    const dt = lastFrame ? Math.min(now - lastFrame, 80) : 0;
+    lastFrame = now;
+    if (!dragging && now > pausedUntil && document.visibilityState === 'visible') {
+      viewport.scrollLeft += dt * .12;
+      wrap();
+    }
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+})();
+
+</script>
+
+<script>
+(function(){
+  'use strict';
+  window.dataLayer=window.dataLayer||[];
+  var keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
+  var current=new URLSearchParams(window.location.search);
+  var traffic={};
+  keys.forEach(function(key){
+    var value=current.get(key);
+    try { if(value){sessionStorage.setItem('cdb_'+key,value);}else {value=sessionStorage.getItem('cdb_'+key)||'';} }catch(e){}
+    if(value){traffic[key]=value;}
+  });
+  window.dataLayer.push(Object.assign({event:'lp_view',page_type:'landing_page',lp_name:'casa_da_botina',page_path:location.pathname},traffic));
+  document.querySelectorAll('a[data-whatsapp="true"]').forEach(function(link){
+    link.addEventListener('click',function(){
+      var productCard=link.closest('.product-card');
+      var payload=Object.assign({
+        lp_name:'casa_da_botina',
+        cta_text:(link.textContent||'').trim().replace(/\s+/g,' ').slice(0,100),
+        cta_location:link.closest('header')?'header':link.closest('footer')?'footer':link.closest('.hero')?'hero':link.closest('#destaques')?'destaques':link.closest('#contato')?'contato':'conteudo',
+        product_name:productCard?(productCard.querySelector('h3')?.textContent.trim()||''):'',
+        link_url:link.href
+      },traffic);
+      window.dataLayer.push(Object.assign({event:'cta_click'},payload));
+      window.dataLayer.push(Object.assign({event:'whatsapp_click'},payload));
+    });
+  });
+})();
+</script>
+</body>
+</html>
