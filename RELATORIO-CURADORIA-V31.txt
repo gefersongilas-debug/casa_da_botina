@@ -1,0 +1,20 @@
+CURADORIA DE PRODUTOS - CASA DA BOTINA V31
+Fonte: pasta Google Drive FOTOS PARA LP, revisada em 19/11/2026
+
+Cards ativos mantidos: 28
+Cards com nome corrigido: 6
+Fotos, descricoes, ordem e CTAs mantidos.
+
+Nomes corrigidos (ANTES -> DEPOIS):
+- Cópia de Maverick -> Maverick Marrom
+- Cópia de Rebel -> Rebel Bandeira Vintage
+- Cópia de Rebel -> Rebel Cano Beje
+- Cópia de Rebel -> Rebel Couro Liso
+- Cópia de Rebel- Bandeira Americana -> Lady Rebel Bandeira Americana
+- Cópia de Ultra lite.jpeg -> Rebel Ultra lite
+
+NOTAS:
+- A imagem Lady Rebel Bandeira Americana corresponde ao arquivo atual no Drive; o antigo ID da mesma foto foi substituido no atributo de origem.
+- Os quatro produtos Durango, os outros nomes, os cards antigos ocultos, o carrossel, o WhatsApp e o GTM foram preservados.
+- A imagem PRCA CALF ROPING consta na pasta atual do Drive, mas nao foi adicionada pois nao estava na listagem e o pedido se limita a revisao dos produtos existentes.
+- Nenhum modelo foi nomeado por adivinhacao: os nomes vieram dos titulos atuais dos arquivos do Drive.

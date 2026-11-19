@@ -1,0 +1,33 @@
+Casa da Botina - V31 | Inventário de fotos e nomes conferidos no Drive em 19/11/2026
+
+Imagem da categoria Masculino: 5647a1ff-7157-4699-90b6-d4fcf1877b80.png -> assets/categoria-masculino-v24.webp
+
+Novos produtos (nome exato no Drive -> asset otimizado):
+01. Texana vimar -> assets/produto-v24-01-texana-vimar.411292ceb1.webp | Drive ID: 1EjJPZgxftIXCVSdh0tQp2OinWG4H8ryF
+02. Vimar bico fino -> assets/produto-v24-02-vimar-bico-fino.d162ce418b.webp | Drive ID: 12jcvEfs4LlGl2ZnuIfBZ0FvoQQdoZBeU
+03. Vimar couro de boi design de arraia -> assets/produto-v24-03-vimar-couro-de-boi-design-de-arraia.5057718ce1.webp | Drive ID: 17TBdczwo3S4uHPCbWUtanDKxSWCq5Wwo
+04. Maverick Marrom -> assets/produto-v24-04-maverick-marrom.6ca98e4a66.webp | Drive ID: 1mBnNGwlT73BtghjqgijaRYLNn3rr2NDR
+05. Rebel Bandeira Vintage -> assets/produto-v24-05-rebel-bandeira-vintage.7d332408ed.webp | Drive ID: 1WeDpHgQJ2g0LQlq1WxM9cCcRm35QdWrV
+06. Rebel Cano Beje -> assets/produto-v24-06-rebel-cano-beje.f9415518c0.webp | Drive ID: 1GzaxwC4Lq1f-JUzM8by_2STU1RnaB25L
+07. Rebel Couro Liso -> assets/produto-v24-07-rebel-couro-liso.5af0ee4c9b.webp | Drive ID: 1qgIz04_24Z2MYTk6IHSkdYPctEq5ne7k
+08. Lady Rebel Bandeira Americana -> assets/produto-v24-08-lady-rebel-bandeira-americana.3dfe4bb05a.webp | Drive ID: 1wYAgYEmWCfWokYfv_4UlKBTaHSEt6aWy
+09. Rebel Ultra lite -> assets/produto-v24-09-rebel-ultra-lite.b5e198ba92.webp | Drive ID: 1CfqPu8kJCxVGE3dGiPqLpvCMNPT3R9XD
+10. Texana Fem. Goyazes- Couro de Jacaré -> assets/produto-v24-10-texana-fem-goyazes-couro-de-jacare.adf61bc9a0.webp | Drive ID: 16WML2dAJzMv8pGpeAxZoc4K5VRxOawYC
+11. Bota Texana Goyazes - Power -> assets/produto-v24-11-bota-texana-goyazes-power.5040526f3a.webp | Drive ID: 14DjsoYyjWrrFLQ341Kjjp7l2e5cGM-PV
+12. Bota Texana Goyazes C/Aplique - Bico Fino -> assets/produto-v24-12-bota-texana-goyazes-c-aplique-bico-fino.0163382330.webp | Drive ID: 1V-UVBr7Zxabg-2IYyuXFsV85Ezcm5B2O
+13. Coturno - Zebu Terra -> assets/produto-v24-13-coturno-zebu-terra.4ec1d64ba9.webp | Drive ID: 14UOn3xzfXAUFzqBm0cbJBpKJ6fZuIhSI
+14. Coturno C/Zíper - Castor -> assets/produto-v24-14-coturno-c-ziper-castor.81ab249ea1.webp | Drive ID: 12R2U92Gil1Dxpk_8KUqNzABJLQx_guC7
+15. Botina Zebu C/Zíper - Terra -> assets/produto-v24-15-botina-zebu-c-ziper-terra.3b3eb8e435.webp | Drive ID: 1WAVnejqpxSKVOXlhUgKm1h9C8wVOJIu2
+16. Botina Lazer C/Zíper - Conhaque -> assets/produto-v24-16-botina-lazer-c-ziper-conhaque.d9316864d0.webp | Drive ID: 1Q6uh0iVOK7oUL7zDn_pONd8dpUT2TDoR
+17. Botina Feminina - Preto -> assets/produto-v24-17-botina-feminina-preto.81c5271f19.webp | Drive ID: 1uwKagKjjk5k6m9Q6GxhjlHn9W1Q72dL3
+18. Botina Florão - Terra -> assets/produto-v24-18-botina-florao-terra.591bf426f2.webp | Drive ID: 1w_NEZpzN4p0ZKdmeamUkcivnKgXUjKWy
+19. Botina Tratorada - Sela -> assets/produto-v24-19-botina-tratorada-sela.1ba03d5215.webp | Drive ID: 1qR-i_0Wh-SY7XCI5gzlfTbKa44kEK5Th
+20. Botina Zebu - Vira Francesa -> assets/produto-v24-20-botina-zebu-vira-francesa.88ae44fbad.webp | Drive ID: 1JTsGJG-4pQiXZTZPCUChnEuZGIgWazpM
+21. Bota Texana Cano Curto - Mustang Terra -> assets/produto-v24-21-bota-texana-cano-curto-mustang-terra.9eb368c436.webp | Drive ID: 1tZA-Qlc00g8juiKMgpU6bvZIJ2tAkfEP
+22. Bota Texana Goyazes - Waterproof -> assets/produto-v24-22-bota-texana-goyazes-waterproof.51f04c2a28.webp | Drive ID: 1_AY_uWPt2W_ohTUQl6oUKkD0IaqSFXmB
+23. Bota Texana Goyazes - Couro de Avestruz -> assets/produto-v24-23-bota-texana-goyazes-couro-de-avestruz.e0ef98a001.webp | Drive ID: 1LXJFW0qlOUQLH_1XGBqJ7ogOXKV1X-2c
+24. Bota Texana Goyazes - Couro de Jacaré -> assets/produto-v24-24-bota-texana-goyazes-couro-de-jacare.69593f6774.webp | Drive ID: 1TALxvicx_7isp141GhFEAzdBmwxich7Q
+
+A foto Lady Rebel Bandeira Americana ocorre em mais de um arquivo antigo, mas foi mantida uma única vez na listagem.
+4 cards Durango anteriores preservados sem alterar imagem ou nome.
+Cards antigos fora do carrossel permanecem ocultos na seção #hidden-product-cards.
